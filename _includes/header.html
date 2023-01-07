@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="{{site.lang}}" data-theme="light">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>{% if page.title %}{{page.title}} - {{site.title}}{% else %}{{site.title}}{% endif %}</title>
+        <meta name="description" content="{% if page.description %}{{page.description}}{% else %}{{site.description}}{% endif %}">
+        <meta name="keywords" content="{% if page.tags %}{{page.tags}}{% else %}{{site.keywords}}{% endif %}">
+        <base href="{{ site.url }}{{ site.baseurl }}" />
+        {% if page.date %}
+        <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
+        <meta content="{{ site.url }}/about/" property="article:author">
+          {% endif %}
+        <meta property="og:site_name" content="{{site.title}}">
+        <meta property="og:type" content="{% if page.title %}article{% else %}website{% endif %}" />
+        <meta property="og:url" content="{{ site.url }}{{ site.baseurl }}{{page.url}}"/>
+        <meta property="og:title" content="{% if page.title %}{{page.title}} - {{site.title}}{% else %}{{site.title}}{% endif %}" />
+        <meta property="og:description" content="{% if page.description %}{{page.description}} {% else %}{{site.description}}{% endif %}" />
+        <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/{% if page.image %}{{page.image}}{% else %}{{ site.logo }}{% endif %}"/>
+        {% if site.twitter_username %}<meta name="twitter:site" content="@{{ site.twitter_username }}" />
+        <meta name="twitter:creator" content="@{{ site.twitter_username }}" />{% endif %} 
+        <meta name="twitter:card" content="summary"/>
+        <meta property="twitter:title" content="{% if page.title %}{{page.title}} - {{site.title}}{% else %}{{site.title}}{% endif %}" />
+        <meta property="twitter:description" content="{% if page.description %}{{page.description}} {% else %}{{site.description}}{% endif %}" />
+        <meta property="twitter:image" content="{{ site.url }}{{ site.baseurl }}/{% if page.image %}{{page.image}}{% else %}{{ site.logo }}{% endif %}" />
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/highlight.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Catamaran:wght@300&display=swap" rel="stylesheet"> 
+
+        <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css'>
+        <link rel='stylesheet' href='https://cdn.datatables.net/v/dt/dt-1.10.24/date-1.0.3/r-2.2.7/sb-1.0.1/sp-1.2.2/datatables.min.css'>
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css'>
+        <link rel='stylesheet' href='https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css'>
+        <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/jquery-ui-timepicker-addon/1.6.3/jquery-ui-timepicker-addon.min.css'>
+
+        <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+        <link rel="shortcut icon" href="{{ site.baseurl }}/{{ site.logo }}" />
+        <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ site.url }}{{ site.baseurl }}/atom.xml">
+        <link rel="alternate" type="application/json" title="{{ site.title }}" href="{{ site.url }}{{ site.baseurl }}/feed.json" />
+        <link rel="sitemap" type="application/xml" title="sitemap" href="{{ site.url }}{{ site.baseurl }}/sitemap.xml" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","author":{"@type":"Person","name":"{{ site.author.name }}"},"description":"{{ site.description }}","headline":"{{ site.title }}","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"{{ site.url }}{{ site.baseurl }}/{{ site.logo }}"},"name":"{{ site.author.name }}"},"sameAs":["https://twitter.com/{{ site.twitter.username }}","https://github.com/{{ site.social.github }}"],"url":"{{ site.url }}{{ site.baseurl }}"}</script>
+    </head>
+<body>
