@@ -1,6 +1,5 @@
 //Initialize table for jobs
 $('.jobs-table').DataTable( {
-     //order: [],
      order: [[ 1, "asc" ]], //set date column as default order, earliest to latest
      lengthMenu: [ 20, 50, 100 ], //options for entry control
      dom: '<"search-wrap"f<"dropfilters">><"top" l<"clear">><"bottom" tipl>', //https://datatables.net/examples/basic_init/dom.html
@@ -10,8 +9,7 @@ $('.jobs-table').DataTable( {
       zeroRecords: "No jobs match your search criteria. Try again or clear the search to start over.",
       info: "Showing _START_ to _END_ • _TOTAL_",
       lengthMenu:     "Show _MENU_ jobs",
-    }
-    
+    }    
 } );
 
 
@@ -23,6 +21,9 @@ $(document).ready(function() {
   var cleartoggle = $("#clear").html();
   var placementb = document.querySelector(".clear");
   $(placementb).append(cleartoggle);
+
+  // Hide second length picker
+  $($('.dataTables_length')[1]).hide()
 
   $( "#min" ).datepicker({
       dateFormat: "mm/dd/yy",
@@ -150,7 +151,7 @@ $('#clear-all').click(function() {
 });
 });
 
-//Add background colors to filters that are not empty
+// Add background colors to filters that are not empty
 $(document).ready(function() {
   $('#DataTables_Table_0_filter input, .form-control').on('keyup change input', 
    function(){
@@ -168,7 +169,7 @@ $(document).ready(function() {
  
 });
 
-//Set clear on the datpicker clear button
+// Set clear on the datpicker clear button
 $(document).on("click", ".clear-date-only", function(){ // if they click clear
   var table =  $('.jobs-table').DataTable();
   var inputs =  $('#DataTables_Table_0_filter input, .form-control');
@@ -178,7 +179,7 @@ $(document).on("click", ".clear-date-only", function(){ // if they click clear
     inputs.removeClass('data-entered');
 });
 
-//Set clear on the timepicker button
+// Set clear on the timepicker button
 $(document).on("click", ".clear-time-only", function(){ // if they click clear
    var table =  $('.jobs-table').DataTable();
     var inputs =  $('#DataTables_Table_0_filter input, .form-control');
