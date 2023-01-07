@@ -181,6 +181,10 @@ def update_jobs(file):
     filepath = get_filepath(file)
     print("jobs file is: %s" % filepath)
 
+    # Copy a version to be previous
+    previous_file = os.path.join(os.path.dirname(here), "_data", "previous-jobs.yaml")
+    shutil.copyfile(filepath, previous_file)
+
     # Read in the jobs, add new jobs from sheets
     jobs = read_jobs(filepath)
     seen = set([f"{x['url']}-{x['title']}" for x in jobs])

@@ -17,6 +17,35 @@ jobs:
         sudo pip3 install -r scripts/requirements.txt
         python3 scripts/update_jobs.py
 
+    - name: Job Updater
+      uses: rseng/jobs-updater@main
+      env:
+        SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}        
+      with:
+        filename: "_data/jobs.yaml"
+        previous_filename: "_data/previous-jobs.yaml"
+
+        # Fields to include (all but url will have title before)
+        keys: "title,location,employer,url"
+
+        # Field to determine job uniqueness
+        unique: "url"
+
+        deploy: true
+        test: false
+        twitter_deploy: false
+        mastodon_deploy: true
+        mastodon_access_token: ${{ secrets.MASTODON_ACCESS_TOKEN }}
+        mastodon_api_base_url: ${{ secrets.MASTODON_API_BASE_URL }}
+
+    - run: echo ${{ steps.updater.outputs.fields }}
+      name: Show Fields Used
+      shell: bash
+
+    - run: echo ${{ steps.updater.outputs.matrix }}
+      name: Show New Jobs
+      shell: bash
+
     - name: Push Fixes
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
