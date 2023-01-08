@@ -17,3 +17,4 @@ We currently have the following automation implemented:
  - [Two workflows](.github/workflows) to post to Mastodon and the HPC Social Slack
  - Anything else you'd like to see?
 
+<a rel="me" href="https://mast.hpc.social/@jobs">Mastodon</a>
