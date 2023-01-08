@@ -33,6 +33,7 @@ jobs:
         deploy: true
         test: false
         twitter_deploy: false
+        hashtag: "#HPC"
 
         slack_deploy: true
         slack_webhook: ${{ secrets.SLACK_WEBHOOK }}
