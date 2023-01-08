@@ -18,7 +18,7 @@ jobs:
         python3 scripts/update_jobs.py
 
     - name: Job Updater
-      uses: rseng/jobs-updater@main
+      uses: rseng/jobs-updater@add/manual-option
       env:
         SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}        
       with:
