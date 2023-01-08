@@ -18,9 +18,7 @@ jobs:
 
       - id: updater
         name: Job Updater
-        uses: rseng/jobs-updater@main
-        env:
-          SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+        uses: rseng/jobs-updater@add/discord-option
         with:
           filename: "_data/jobs.yaml"
 
@@ -33,6 +31,13 @@ jobs:
           deploy: true
           test: false
           twitter_deploy: false
+
+          slack_deploy: true
+          slack_webhook: ${{ secrets.SLACK_WEBHOOK }}
+          
+          discord_deploy: true
+          discord_webhook: ${{ secrets.DISCORD_WEBHOOK }}
+
           mastodon_deploy: true
           mastodon_access_token: ${{ secrets.MASTODON_ACCESS_TOKEN }}
           mastodon_api_base_url: ${{ secrets.MASTODON_API_BASE_URL }}
