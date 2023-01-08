@@ -6,7 +6,8 @@ for receiving jobs from a form.
 
  - [Post a Job](https://hpc.social/jobs/about/) or read criteria and how it works.
  - [See current jobs](https://hpc.social/jobs) on our board!
-
+ - [Visit our Mastodon Bot](https://mast.hpc.social/@jobs)
+ 
 ## Automation
 
 We currently have the following automation implemented:
