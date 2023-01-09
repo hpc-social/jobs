@@ -19,7 +19,7 @@ jobs:
         python3 scripts/update_jobs.py
 
     - name: Job Updater
-      uses: rseng/jobs-updater@add/discord-option
+      uses: rseng/jobs-updater@main
       with:
         filename: "_data/jobs.yaml"
         previous_filename: "_data/previous-jobs.yaml"

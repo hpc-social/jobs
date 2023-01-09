@@ -1,4 +1,4 @@
-name: jobs update
+name: jobs update automated
 
 on:
   push:
@@ -18,7 +18,7 @@ jobs:
 
       - id: updater
         name: Job Updater
-        uses: rseng/jobs-updater@add/discord-option
+        uses: rseng/jobs-updater@main
         with:
           filename: "_data/jobs.yaml"
 
