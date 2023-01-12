@@ -23,7 +23,7 @@ jobs:
           filename: "_data/jobs.yaml"
 
           # Fields to include (all but url will have title before)
-          keys: "title,location,employer,url"
+          keys: "title,location,employer,remote,url"
 
           # Field to determine job uniqueness
           unique: "url"

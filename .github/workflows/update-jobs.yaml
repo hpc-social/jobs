@@ -28,7 +28,7 @@ jobs:
         previous_filename: "_data/previous-jobs.yaml"
 
         # Fields to include (all but url will have title before)
-        keys: "title,location,employer,url"
+        keys: "title,location,employer,remote,url"
 
         # Field to determine job uniqueness
         unique: "url"
