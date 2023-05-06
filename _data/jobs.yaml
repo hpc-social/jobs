@@ -38,22 +38,6 @@
   remote: Fully onsite
   title: HPC Software Developer
   url: https://us.smrtr.io/nF38
-- employer: Oak Ridge National Laboratory
-  expires: 3/6/2023
-  job_type: Full-Time
-  location: Oak Ridge, Tennessee
-  posted: 1/10/2023
-  remote: Fully onsite
-  title: Lead Full Stack Software Developer
-  url: https://jobs.ornl.gov/job-invite/9414
-- employer: Oak Ridge National Laboratory
-  expires: 3/6/2023
-  job_type: Full-Time
-  location: Oak Ridge, Tennessee
-  posted: 1/10/2023
-  remote: Fully onsite
-  title: Lead Full Stack Software Developer
-  url: https://jobs.ornl.gov/job-invite/9414
 - employer: ASRC Federal
   expires: 4/28/2023
   job_type: Full-Time
@@ -198,14 +182,6 @@
   remote: Hybrid
   title: Storage Hardware Lead
   url: https://jefferson-lab.us.hire.com/p/e4438974c95d4e739bf955766e40cf96
-- employer: ICT Department Ghent University
-  expires: 3/6/2023
-  job_type: Full-Time
-  location: Ghent, Belgium
-  posted: 2/17/2023
-  remote: Remote friendly
-  title: Project Assistant Scientific Software
-  url: https://www.ugent.be/hpc/en/news-events/news/job-multixscale
 - employer: National Center for Supercomputing Applications (NCSA)
   expires: 3/20/2023
   job_type: Full-Time
@@ -584,3 +560,19 @@
   remote: Remote friendly
   title: High-Performance Computing Engineer - New College Grad 2023
   url: https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-CA-Remote/High-Performance-Computing-Engineer---New-College-Grad-2023_JR1966015
+- employer: Northwestern University
+  expires: 4/3/2023
+  job_type: Full-Time
+  location: Evanston, IL
+  posted: 2/17/2023
+  remote: Hybrid
+  title: Computational Specialist (one year term appointment)
+  url: https://careers.northwestern.edu/psp/hr857prd_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&SiteId=1&JobOpeningId=46992&PostingSeq=1
+- employer: Northwestern University
+  expires: 4/3/2023
+  job_type: Full-Time
+  location: Evanston, IL
+  posted: 2/17/2023
+  remote: Hybrid
+  title: Senior Computational Specialist
+  url: https://careers.northwestern.edu/psp/hr857prd_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&SiteId=1&JobOpeningId=46991&PostingSeq=1
