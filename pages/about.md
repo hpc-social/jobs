@@ -5,8 +5,8 @@ permalink: /about/
 ---
 
 We aspire to provide a job board that is easy to search and contribute to! Criteria for your job should generally be something related to high performance computing, whether that is a linux administrator, an application developer, or a user-support specialist. You can use your best judgment. Any jobs reported by a community member to not be within this scope will be put up for discussion to the larger community and removed if deemed not in scope. To add a job,
-you can either <a href="https://github.com/hpc-social/jobs" target="_blank">open a pull request</a> to directly
-add a new addition to the `_data/jobs.yaml` file, or <a href="https://forms.gle/JQVsr3sVzsWhmtvz5" target="_blank">fill out our form</a>. The form is also provided here for convenience. Submissions are validated nightly, and links checked for spam or otherwise malicious content. If you don&#x27;t see your job appear the next day, please open an issue <a href="https://github.com/hpc-social/jobs/issues" target="_blank">here</a>. You can also retrieve the latest jobs via any of these feeds:
+you can either <a href="https://forms.gle/JQVsr3sVzsWhmtvz5" target="_blank">fill out our form</a>, fill out the page here, or (if you have trouble) <a href="https://github.com/hpc-social/jobs" target="_blank">request via an issue</a> to to have a job added for you.
+Submissions are validated several times a day, and links checked for spam or otherwise malicious content. If you don&#x27;t see your job appear the next day, please open an issue <a href="https://github.com/hpc-social/jobs/issues" target="_blank">here</a>. You can also retrieve the latest jobs via any of these feeds:
 
 <a type="button" class="btn btn-sm btn-secondary" href="{{ site.baseurl }}/feed.json">feed.json</a>
 <a type="button" class="btn btn-sm btn-secondary" href="{{ site.baseurl }}/atom.xml">atom.xml</a>
