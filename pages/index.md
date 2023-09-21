@@ -65,7 +65,7 @@ permalink: /
       <th data-sortable="true" data-field="job-type" width="15%">Job Type</th>
       <th data-sortable="true" data-field="location" width="15%">Employer</th>
       <th data-sortable="true" data-field="location" width="15%">Location</th>
-      <th data-sortable="true" data-field="expires">Expires</th>
+      <th data-sortable="true" data-field="expires">Advertised Until</th>
       <th data-sortable="true" data-field="posted" width="10%">Posted</th>
       <th data-sortable="true" data-field="remote" width="10%">Remote Options</th>
    </tr>

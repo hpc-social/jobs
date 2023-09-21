@@ -1,11 +1,9 @@
 {% capture jobs_data %}
   {% for job in include.sorted_jobs %}
-  {% capture nowunix %}{{'now' | date: '%s'}}{% endcapture %}
-  {% capture expires %}{{ job.expires | date: "%m/%d/%Y" | date: '%s'}}{% endcapture %}
+  {% capture nowunix %}{{'now' | date: '%m/%d/%Y' | date: %s }}{% endcapture %}
   {% capture posted %}{{ job.posted | date: "%m/%d/%Y" | date: '%b %d, %Y'}}{% endcapture %}
   {% capture posted_order %}{{ job.posted | date: "%m/%d/%Y" | date: '%Y%m%d'}}{% endcapture %}
   {% capture expires_order %}{{ job.expires | date: "%m/%d/%Y" | date: '%Y%m%d'}}{% endcapture %}
-  {% if expires > nowunix %}
     <tr class='tr odd {% cycle "odd" "even" %}' data-posted="{{ posted_order }}" data-expires="{{ expires_order }}">
      <td data-order="{{ job.title }}" ><a target="_blank" href="{{ job.url }}">{{ job.title }}</a></td>
      <td data-order="{{ job.job_type }}" >{{ job.job_type }}</td>
@@ -15,7 +13,7 @@
      <td data-order="{{ posted_order }}" >{{ job.posted }}</td>
      <td data-order="{{ job.remote }}" >{{ job.remote }}</td>
     </tr>
-  {% endif %}{% endfor %}
+  {% endfor %}
 {% endcapture %}
 {% comment %}
 This accounts for the way whitespace appears in
