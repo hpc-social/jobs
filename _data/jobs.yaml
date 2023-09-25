@@ -296,14 +296,6 @@
   remote: Remote friendly
   title: HPC Systems Administrator Senior
   url: https://careers.umich.edu/job_detail/238883/hpc-systems-administrator-senior
-- employer: North Dakota State University
-  expires: 9/14/2023
-  job_type: Full-Time
-  location: Fargo, ND
-  posted: 8/15/2023
-  remote: Hybrid
-  title: Scientific Software Specialist
-  url: https://prd.hcm.ndus.edu/psc/recruit/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&SiteId=1&JobOpeningId=2948944&PostingSeq=1
 - employer: Advanced Research Computing, University of Birmingham
   expires: 10/3/2023
   job_type: Full-Time
@@ -312,3 +304,27 @@
   remote: Hybrid
   title: Principal Research Infrastructure Engineer (HPC and Storage) - 2 posts
   url: https://blog.bham.ac.uk/bear/2023/09/13/were-recruiting-two-grade-9-principal-research-infrastructure-engineer-posts/
+- employer: New Jersey Institute of Technology
+  expires: 11/30/2023
+  job_type: Full-Time
+  location: Newark, NJ
+  posted: 9/25/2023
+  remote: Hybrid
+  title: Research Computing Facilitator
+  url: https://njit.csod.com/ux/ats/careersite/1/home/requisition/5230?c=njit
+- employer: New Jersey Institute of Technology
+  expires: 11/30/2023
+  job_type: Full-Time
+  location: Newark, NJ
+  posted: 9/25/2023
+  remote: Hybrid
+  title: Research Computing Facilitator
+  url: https://njit.csod.com/ux/ats/careersite/1/home/requisition/5230?c=njit
+- employer: Woods Hole Oceanographic Institution
+  expires: 11/25/2023
+  job_type: Full-Time
+  location: Woods Hole, MA
+  posted: 9/25/2023
+  remote: Fully onsite
+  title: Data Scientist / Scientific Programmer
+  url: https://careers-whoi.icims.com/jobs/2167/data-scientist---scientific-programmer/job?mobile=false&width=1090&height=500&bga=true&needsRedirect=false&jan1offset=-300&jun1offset=-240
