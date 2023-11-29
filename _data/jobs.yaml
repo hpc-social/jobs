@@ -54,14 +54,6 @@
   remote: Fully onsite
   title: Director of Cyberinfrastructure
   url: https://www.schooljobs.com/careers/hawaiiedu/jobs/4102113/director-of-cyberinfrastructure-pos-89533?pagetype=jobOpportunitiesJobs
-- employer: Eviden an Atos Company
-  expires: 9/29/2023
-  job_type: Full-Time
-  location: Reading
-  posted: 7/19/2023
-  remote: Hybrid
-  title: HPC Engineer
-  url: https://jobs.atos.net/job/London-CONSULTANT-GB-SW1A-2NS/954035301/
 - employer: University of Alabama at Birmingham
   expires: 10/12/2023
   job_type: Full-Time
@@ -312,3 +304,12 @@
   remote: Fully onsite
   title: Data Scientist / Scientific Programmer
   url: https://careers-whoi.icims.com/jobs/2167/data-scientist---scientific-programmer/job?mobile=false&width=1090&height=500&bga=true&needsRedirect=false&jan1offset=-300&jun1offset=-240
+- employer: Rutgers Office of Advanced Research Computing (OARC)
+  expires: 1/21/2024
+  job_type: Full-Time
+  location: New Jersey, USA
+  posted: 11/28/2023
+  remote: Remote friendly
+  title: Rutgers University is seeking a Senior Scientist/Research Facilitator to
+    join our growing team!
+  url: https://jobs.rutgers.edu/postings/214282
