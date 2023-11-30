@@ -38,22 +38,6 @@
   remote: Remote friendly
   title: Senior Research Computing Facilitator
   url: https://www.uvmjobs.com/postings/63639
-- employer: University of Luxembourg
-  expires: 9/30/2023
-  job_type: Full-Time
-  location: Esch-sur-Alzette, Luxembourg
-  posted: 7/5/2023
-  remote: Remote friendly
-  title: HPC system administrator
-  url: https://recruitment.uni.lu/en/details.html?id=QMUFK026203F3VBQB7V7VV4S8&nPostingID=86136&nPostingTargetID=125579
-- employer: University of Hawai'i System
-  expires: 11/30/2023
-  job_type: Full-Time
-  location: Honolulu, Hawai'i
-  posted: 7/5/2023
-  remote: Fully onsite
-  title: Director of Cyberinfrastructure
-  url: https://www.schooljobs.com/careers/hawaiiedu/jobs/4102113/director-of-cyberinfrastructure-pos-89533?pagetype=jobOpportunitiesJobs
 - employer: University of Alabama at Birmingham
   expires: 10/12/2023
   job_type: Full-Time
@@ -305,3 +289,11 @@
   title: Rutgers University is seeking a Senior Scientist/Research Facilitator to
     join our growing team!
   url: https://jobs.rutgers.edu/postings/214282
+- employer: Woods Hole Oceanographic Institution
+  expires: 11/25/2023
+  job_type: Full-Time
+  location: Woods Hole, MA
+  posted: 9/25/2023
+  remote: Fully onsite
+  title: Data Scientist / Scientific Programmer
+  url: https://careers-whoi.icims.com/jobs/2167/data-scientist---scientific-programmer/job?mobile=false&width=1090&height=500&bga=true&needsRedirect=false&jan1offset=-300&jun1offset=-240
