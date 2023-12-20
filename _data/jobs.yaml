@@ -128,14 +128,6 @@
   remote: Hybrid
   title: Senior Research Computing Systems Engineer
   url: https://www.uvmjobs.com/postings/67356
-- employer: Boise State University - based in Idaho Falls at Idaho National Laboratory
-  expires: 10/20/2023
-  job_type: Full-Time
-  location: Idaho Falls, Idaho
-  posted: 9/28/2023
-  remote: Hybrid
-  title: HPC Engineer II-IV
-  url: https://jobs.boisestate.edu/en-us/job/497923/hpc-systems-engineer-2-or-3-or-4
 - employer: Stability.ai
   expires: 2/9/2024
   job_type: Full-Time
@@ -210,3 +202,11 @@
   remote: Hybrid
   title: RSE / HPC Consultant
   url: https://www.jobs.cam.ac.uk/job/44275/
+- employer: Oregon State University
+  expires: 3/1/2024
+  job_type: Full-Time
+  location: Corvallis, OR
+  posted: 12/19/2023
+  remote: Fully onsite
+  title: Director of the Supercomputing Center
+  url: https://jobs.oregonstate.edu/postings/147389
