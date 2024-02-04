@@ -144,14 +144,6 @@
   remote: Hybrid
   title: Research Computing Senior Cloud Security Engineer
   url: https://jobs.colorado.edu/jobs/JobDetail/?jobId=53735
-- employer: ECMWF
-  expires: 1/22/2024
-  job_type: Full-Time
-  location: Reading, UK or Bonn, Germany
-  posted: 1/3/2024
-  remote: Hybrid
-  title: Scientific Software Engineer
-  url: https://jobs.ecmwf.int/Job/JobDetail?JobId=167
 - employer: Northwestern University
   expires: 2/1/2024
   job_type: Full-Time
@@ -265,3 +257,11 @@
   remote: Fully remote
   title: GO/HPC Software Engineer - Remote
   url: https://app.trinethire.com/companies/22680-sylabs-inc/jobs/87648-go-hpc-software-engineer-remote
+- employer: University of Wisconsin, College of Engineering
+  expires: 1/31/2024
+  job_type: Full-Time
+  location: Madison, WI
+  posted: 1/25/2024
+  remote: Fully onsite
+  title: Research Computing team lead
+  url: https://www.cae.wisc.edu/about/college-of-engineering-research-computing-lead/
