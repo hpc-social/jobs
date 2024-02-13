@@ -298,3 +298,19 @@
   remote: Remote friendly
   title: Researcher/Scientist (f/m/d) for HPC, ML, and RDM
   url: https://www.hzdr.de/db/Cms?pNid=490&pOid=71159&pContLang=en
+- employer: "Friedrich-Schiller-Universit\xC3\xA4t Jena"
+  expires: 5/31/2024
+  job_type: Full-Time
+  location: Jena, Germany
+  posted: 2/13/2024
+  remote: Fully onsite
+  title: Accelerating Tensor Computations through Neural Processing Units (PhD/Postdoc)
+  url: https://scalable.uni-jena.de/join/
+- employer: MRC Laboratory of Medical Sciences
+  expires: 2/25/2024
+  job_type: Full-Time
+  location: London, UK
+  posted: 2/13/2024
+  remote: Fully onsite
+  title: Senior HPC Engineer
+  url: https://lms.mrc.ac.uk/vacancies/senior-hpc-engineer-bioinformatics-facility-lms-2346/
