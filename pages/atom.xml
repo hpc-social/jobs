@@ -2,7 +2,6 @@
 layout: null
 permalink: /atom.xml
 ---
-
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  <title>{{ site.title }}</title>
@@ -14,4 +13,10 @@ permalink: /atom.xml
    <name>{{ site.author.name }}</name>
    <email>{{ site.author.email }}</email>
  </author>
+ {% for job in site.data.jobs %}<entry>
+   <title>{{ job.title | xml_escape }}</title>
+   <link href="{{ job.url | xml_escape }}"/>
+   {% if forloop.index < 10 %}<updated>{% capture updatedat %}{{ site.time | date: '%y-%m-%dT%H:%M:' }}0{{ forloop.index }}-06:00{% endcapture %}{{ updatedat | date_to_xmlschema }}</updated>{% else %}<updated>{% capture updatedat %}{{ site.time | date: '%y-%m-%dT%H:%M:' }}{{ forloop.index }}-06:00{% endcapture %}{{ updatedat | date_to_xmlschema }}</updated>{% endif %}
+   <id>{{ site.url }}/?id={{ forloop.index }}</id>
+ </entry>{% endfor %}
 </feed>
