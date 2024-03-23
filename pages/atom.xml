@@ -9,7 +9,7 @@ permalink: /atom.xml
  <title>{{ site.title }}</title>
  <link href="{{ site.url }}/jobs/atom.xml" rel="self"/>
  <link href="{{ site.url }}/jobs/"/>
- <updated>{{ site.time | date_to_xmlschema }}</updated>
+ <updated>{{ site.time | date: '%y-%m-%dT%H:%M:%S' }}Z</updated>
  <id>{{ site.url }}/</id>
  <author>
    <name>{{ site.author.name }}</name>
@@ -20,9 +20,8 @@ permalink: /atom.xml
  <entry>
    <title>{{ job.title | xml_escape }}</title>
    <link href="{{ job.url | xml_escape }}"/>
-   <updated>{{ site.time | date_to_xmlschema }}</updated>
-   <id>{{ forloop.index }}</id>
-   <content type="html">{{ job.title | xml_escape }} at {{ job.employer | xml_escape }} in {{ job.location | xml_escape }}, {{ job.remote }}</content>
+   {% if forloop.index < 10 %}<updated>{{ site.time | date: '%y-%m-%dT%H:%M:' }}0{{ forloop.index }}Z</updated>{% else %}<updated>{{ site.time | date: '%y-%m-%dT%H:%M:' }}{{ forloop.index }}Z</updated>{% endif %}
+   <id>{{ site.url }}/?id={{ forloop.index }}</id>
  </entry>
  {% endfor %}
 
