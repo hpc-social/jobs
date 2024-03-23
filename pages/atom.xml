@@ -5,21 +5,13 @@ permalink: /atom.xml
 
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-
  <title>{{ site.title }}</title>
  <link href="{{ site.url }}/jobs/atom.xml" rel="self"/>
  <link href="{{ site.url }}/jobs/"/>
- <updated>{% capture maindate %}{{ site.time | date: '%y-%m-%dT%H:%M:%S' }}Z{% endcapture %}{{ maindate | date_to_rfc822 }}</updated>
+ <updated>{{ site.time  | date_to_rfc822 }}</updated>
  <id>{{ site.url }}/</id>
  <author>
    <name>{{ site.author.name }}</name>
    <email>{{ site.author.email }}</email>
  </author>
- {% for job in site.data.jobs %}
- <entry>
-   <title>{{ job.title | xml_escape }}</title>
-   <link href="{{ job.url | xml_escape }}"/>
-   {% if forloop.index < 10 %}<updated>{% capture updatedat %}{{ site.time | date: '%y-%m-%dT%H:%M:' }}0{{ forloop.index }}Z{% endcapture %}{{ updatedat | date_to_rfc822 }}</updated>{% else %}<updated>{% capture updatedat %}{{ site.time | date: '%y-%m-%dT%H:%M:' }}{{ forloop.index }}Z{% endcapture %}{{ updatedat | date_to_rfc822 }}</updated>{% endif %}
-   <id>{{ site.url }}/?id={{ forloop.index }}</id>
- </entry>{% endfor %}
 </feed>
