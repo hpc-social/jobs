@@ -7,10 +7,10 @@ permalink: /atom.xml
 <feed xmlns="http://www.w3.org/2005/Atom">
 
  <title>{{ site.title }}</title>
- <link href="{{ site.url }}/atom.xml" rel="self"/>
- <link href="{{ site.url }}/"/>
+ <link href="{{ site.url }}/jobs/atom.xml" rel="self"/>
+ <link href="{{ site.url }}/jobs/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>{{ site.url }}</id>
+ <id>{{ site.url }}/</id>
  <author>
    <name>{{ site.author.name }}</name>
    <email>{{ site.author.email }}</email>
@@ -18,11 +18,11 @@ permalink: /atom.xml
 
  {% for job in site.data.jobs %}
  <entry>
-   <title>{{ job.ttile | xml_escape }}</title>
+   <title>{{ job.title | xml_escape }}</title>
    <link href="{{ job.url | xml_escape }}"/>
-   <updated>{{ job.date | date_to_xmlschema }}</updated>
-   <id>{{ job.id }}</id>
-   <content type="html">{{ job.title | xml_escape }} at {{ job.employer }} in {{ job.location | xml_escape }}, {{ job.remote }}</content>
+   <updated>{{ site.time | date_to_xmlschema }}</updated>
+   <id>{{ forloop.index }}</id>
+   <content type="html">{{ job.title | xml_escape }} at {{ job.employer | xml_escape }} in {{ job.location | xml_escape }}, {{ job.remote }}</content>
  </entry>
  {% endfor %}
 
