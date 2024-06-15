@@ -46,14 +46,6 @@
   remote: Hybrid
   title: Medior GPGPU engineer
   url: https://streamhpc.zohorecruit.eu/jobs/Careers/67564000000409015/Medior-GPGPU-engineer---CUDA-HIP-SYCL-OpenCL?source=HPCSocial
-- employer: Texas Tech University
-  expires: 5/1/2024
-  job_type: Full-Time
-  location: Lubbock, Texas, USA
-  posted: 3/21/2024
-  remote: Fully onsite
-  title: Enterprise Systems Analyst / Research Software Engineer
-  url: https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25898&siteid=5635&PageType=JobDetails&jobid=857819
 - employer: William & Mary
   expires: 5/1/2024
   job_type: Full-Time
@@ -270,3 +262,20 @@
   remote: Hybrid
   title: Postdoctoral Research Associate
   url: https://www.uni-bonn.de/de/universitaet/medien-universitaet/medien-arbeiten-an-der-uni/medien-personalmanagement/pdfs-stellenausschreibungen-wiss.ma/3-3_2024_17_.pdf
+- employer: Barcelona Supercomputing Center
+  expires: 5/31/2024
+  job_type: Full-Time
+  location: Barcelona, Spain
+  posted: 11/30/2023
+  remote: Hybrid
+  title: Postdoctoral/Recognized Researcher (R2) Computer architect
+  url: https://www.bsc.es/pena-antonio
+- employer: Barcelona Supercomputing Center
+  expires: 5/31/2024
+  job_type: Full-Time
+  location: Barcelona, Spain
+  posted: 11/30/2023
+  remote: Hybrid
+  title: 3 PhD student positions related to GPU computing, FPGA acceleration and computer
+    architecture
+  url: https://www.bsc.es/pena-antonio
