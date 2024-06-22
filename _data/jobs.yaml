@@ -30,14 +30,6 @@
   remote: Hybrid
   title: Sr. Software Development Engineer, EFA MPI Team
   url: https://www.amazon.jobs/en/jobs/2558631/sr-software-development-engineer-efa-mpi-team
-- employer: Intel
-  expires: 4/22/2024
-  job_type: Full-Time
-  location: Albuquerque, NM
-  posted: 2/22/2024
-  remote: Hybrid
-  title: HPC and AI Systems Administrator
-  url: https://intel.wd1.myworkdayjobs.com/External/job/US-New-Mexico-Albuquerque/HPC-and-AI-System-Administrator_JR0258327
 - employer: Stream HPC
   expires: 6/30/2024
   job_type: Full-Time
@@ -286,20 +278,11 @@
   remote: Remote friendly
   title: HPC/AI DevOps Engineer
   url: https://jobs.careers.microsoft.com/global/en/job/1721477/Senior-Software-Engineer
-- employer: Barcelona Supercomputing Center
-  expires: 5/31/2024
+- employer: Microsoft
+  expires: 8/1/2024
   job_type: Full-Time
-  location: Barcelona, Spain
-  posted: 11/30/2023
-  remote: Hybrid
-  title: Postdoctoral/Recognized Researcher (R2) Computer architect
-  url: https://www.bsc.es/pena-antonio
-- employer: Barcelona Supercomputing Center
-  expires: 5/31/2024
-  job_type: Full-Time
-  location: Barcelona, Spain
-  posted: 11/30/2023
-  remote: Hybrid
-  title: 3 PhD student positions related to GPU computing, FPGA acceleration and computer
-    architecture
-  url: https://www.bsc.es/pena-antonio
+  location: Redmond, WA; Mountain View, CA; anywhere in US
+  posted: 6/21/2024
+  remote: Remote friendly
+  title: Senior Supercomputing Engineer
+  url: https://jobs.careers.microsoft.com/global/en/job/1727955/Senior-Supercomputing-Engineer
