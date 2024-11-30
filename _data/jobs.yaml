@@ -22,22 +22,6 @@
   remote: Hybrid
   title: Research Computing Consultant
   url: https://brown.wd5.myworkdayjobs.com/en-US/staff-careers-brown/details/Research-Computing-Consultant_REQ194428
-- employer: IP Source (Recruiter)
-  expires: 9/30/2024
-  job_type: Full-Time
-  location: UK - Remote
-  posted: 7/18/2024
-  remote: Fully remote
-  title: HPC (Compute) Engineer
-  url: https://www.linkedin.com/talent/hire/878096665/job-post
-- employer: UCLA - Office of Advanced Research Computing
-  expires: 9/30/2024
-  job_type: Full-Time
-  location: Los Angeles, CA
-  posted: 8/1/2024
-  remote: Hybrid
-  title: HPC System Adminstrator
-  url: https://jobs.ucla.edu/jobs/3480
 - employer: Princeton University
   expires: 10/9/2024
   job_type: Full-Time
@@ -243,3 +227,11 @@
   remote: Hybrid
   title: Research Software Engineer
   url: https://careers.udel.edu/cw/en-us/job/501450/research-software-engineer
+- employer: University of Manitoba / Alliance Federation
+  expires: 12/11/2024
+  job_type: Full-Time
+  location: Winnipeg, MB
+  posted: 11/29/2024
+  remote: Remote friendly
+  title: Cloud Computing and High-Throughput Computing Specialist
+  url: https://viprecprod.ad.umanitoba.ca/DEFAULT.ASPX?REQ_ID=36426
