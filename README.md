@@ -14,7 +14,7 @@ We currently have the following automation implemented:
 
  - [Automated Posting](https://hpc.social/jobs/about/) that is updated and validated nightly.
  - [Global Counts](scripts/count_jobs.py) to have a running total of all the jobs the board has even seen (to be added).
- - [Two workflows](.github/workflows) to post to Mastodon and the HPC Social Slack
+ - [Two workflows](.github/workflows) to post to Mastodon, Twitter, Discord, BlueSky and the HPC Social Slack
  - Anything else you'd like to see?
 
 <a rel="me" href="https://mast.hpc.social/@jobs">Mastodon</a>

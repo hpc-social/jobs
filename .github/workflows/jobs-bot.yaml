@@ -12,7 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Run Jobs Poster
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 2
 
@@ -35,7 +35,11 @@ jobs:
 
           slack_deploy: true
           slack_webhook: ${{ secrets.SLACK_WEBHOOK }}
-          
+
+          bluesky_deploy: true
+          bluesky_email: ${{ secrets.BLUESKY_EMAIL }}
+          bluesky_password: ${{ secrets.BLUESKY_PASSWORD }}
+
           discord_deploy: true
           discord_webhook: ${{ secrets.DISCORD_WEBHOOK }}
 
