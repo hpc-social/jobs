@@ -244,7 +244,7 @@ def update_jobs(file):
 
     # Write the new file
     with open(tmpfile, "w") as outfile:
-        yaml.dump(keepers, outfile)
+        yaml.dump(keepers, outfile, allow_unicode=True)
 
     # Copy finished file - will need to be added in pull request
     shutil.copyfile(tmpfile, filepath)
