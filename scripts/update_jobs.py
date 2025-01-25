@@ -144,13 +144,13 @@ def parse_lines(lines):
     jobs = []
     for line in lines:
         line = [x.strip() for x in line.split("\t")]
-        posted = line[0].split(" ")[0].strip()
+        posted = datetime.datetime.strptime(line[0].split(" ")[0].strip(), "%Y/%m/%d").isoformat()
         title = line[1].replace('"', "'")
         url = line[2].strip()
         location = line[3].strip()
         job_type = line[4].strip()
         remote = line[5].strip()
-        expires = line[6].strip()
+        expires = datetime.datetime.strptime(line[6].strip(), "%Y/%m/%d").isoformat()
         employer = line[7].strip()
 
         # If we have a url and key, check if
@@ -199,15 +199,13 @@ def update_jobs(file):
 
     # Keep a list to re-write to file
     keepers = []
-    now = datetime.date.today()
-    now = datetime.datetime.strptime(f"{now.year}/{now.month}/{now.day}", "%Y/%m/%d")
+    
+    now = datetime.date.today().isoformat()
 
     print("Found %s jobs" % len(jobs))
     for job in jobs:
-        expires = datetime.datetime.strptime(job["expires"], "%m/%d/%Y")
-
         # Do not keep expired jobs that haven't been updated in 60 days
-        if expires < now:
+        if job["expires"] < now:
             removal_date = expires + timedelta(days=60)
             if removal_date < now:
                 print(
@@ -217,7 +215,7 @@ def update_jobs(file):
                 continue
 
         # catch these and fail
-        if expires > now:
+        if job["expires"] > now:
             print("Keeping %s, expires in future." % job["title"])
             keepers.append(job)
             continue
