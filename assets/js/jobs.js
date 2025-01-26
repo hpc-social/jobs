@@ -109,11 +109,12 @@ $(document).ready(function() {
 
     // Posted after (min)
     $('#min').on('change', function () {
-       const min_date = Date.parse($(this).val());
+       var from = $(this).val().replace(/\//g, ''); //remove the slashes
+       var num = 4;
+       var result = from.substr(num) + from.substr(0, num);
        $.fn.dataTable.ext.search.push(
-         function(settings, data, dataIndex) {
-           const cur = $(table.row(dataIndex).node()).attr('data-posted');
-           return Date.parse(cur) >= min_date;
+         function(settings, data, dataIndex) {           
+           return $(table.row(dataIndex).node()).attr('data-posted') >= result;
        });
        table.draw();
     });
