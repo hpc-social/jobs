@@ -141,16 +141,21 @@ def parse_lines(lines):
     """
     Parse new jobs from lines
     """
+
+    def _convert_date(srcdate:str):
+      converted = datetime.datetime.strptime(srcdate, "%m/%d/%Y")
+      return datetime.date.fromisoformat(converted.date().isoformat())
+
     jobs = []
     for line in lines:
         line = [x.strip() for x in line.split("\t")]
-        posted = line[0].split(" ")[0].strip()
+        posted = _convert_date(line[0].split(" ")[0].strip())
         title = line[1].replace('"', "'")
         url = line[2].strip()
         location = line[3].strip()
         job_type = line[4].strip()
         remote = line[5].strip()
-        expires = line[6].strip()
+        expires = _convert_date(line[6].strip())
         employer = line[7].strip()
 
         # If we have a url and key, check if
@@ -199,16 +204,14 @@ def update_jobs(file):
 
     # Keep a list to re-write to file
     keepers = []
-    now = datetime.date.today()
-    now = datetime.datetime.strptime(f"{now.year}/{now.month}/{now.day}", "%Y/%m/%d")
+    
+    now = datetime.date.fromisoformat(datetime.date.today().isoformat())
 
     print("Found %s jobs" % len(jobs))
     for job in jobs:
-        expires = datetime.datetime.strptime(job["expires"], "%m/%d/%Y")
-
         # Do not keep expired jobs that haven't been updated in 60 days
-        if expires < now:
-            removal_date = expires + timedelta(days=60)
+        if job["expires"] < now:
+            removal_date = job["expires"] + timedelta(days=60)
             if removal_date < now:
                 print(
                     "Skipping %s, expired and hasn't been updated in 60 days."
@@ -217,7 +220,7 @@ def update_jobs(file):
                 continue
 
         # catch these and fail
-        if expires > now:
+        if job["expires"] > now:
             print("Keeping %s, expires in future." % job["title"])
             keepers.append(job)
             continue
