@@ -30,14 +30,6 @@
   remote: Fully onsite
   title: Field Application Engineer (FAE)
   url: https://jobs.lever.co/rivosinc/3a8dbe60-856e-4c8b-b5da-79a681931358
-- employer: Ghent University
-  expires: 2025-03-23
-  job_type: Full-Time
-  location: Ghent, Belgium
-  posted: 2025-03-08
-  remote: Hybrid
-  title: Software Integration Specialist EuroHPC Federation Platform
-  url: https://jobs.ugent.be/job/Gent-Software-Integration-Specialist-EuroHPC-Federation-Platform-9000/815106302
 - employer: Thales
   expires: 2025-09-01
   job_type: Full-Time
@@ -143,3 +135,43 @@
   title: "Tech Lead / GPU Developer â\x80\x93 Project Management in C++/CUDA (HPC\
     \ & Cloud)"
   url: https://aneo.recruitee.com/o/tech-lead-dev-gpu-pilotage-projets-ccuda-hpc-cloud
+- employer: Hudson River Trading
+  expires: 2025-09-24
+  job_type: Full-Time
+  location: Remote
+  posted: 2025-05-22
+  remote: Fully remote
+  title: Senior HPC Storage Architect
+  url: https://www.hudsonrivertrading.com/hrt-job/senior-hpc-storage-architect-6/
+- employer: Hudson River Trading
+  expires: 2025-09-24
+  job_type: Full-Time
+  location: New York
+  posted: 2025-05-22
+  remote: Hybrid
+  title: Systems Engineer - R&D
+  url: https://www.hudsonrivertrading.com/hrt-job/systems-engineer-research-development-3/
+- employer: Hudson River Trading
+  expires: 2025-09-24
+  job_type: Full-Time
+  location: Chicago, IL
+  posted: 2025-05-22
+  remote: Hybrid
+  title: Systems Engineer - R&D
+  url: https://www.hudsonrivertrading.com/hrt-job/systems-engineer-research-development-2/
+- employer: Hudson River Trading
+  expires: 2025-09-24
+  job_type: Full-Time
+  location: Austin, TX
+  posted: 2025-05-22
+  remote: Hybrid
+  title: Systems Engineer - R&D
+  url: https://www.hudsonrivertrading.com/hrt-job/systems-engineer-research-development/
+- employer: Hudson River Trading
+  expires: 2025-09-24
+  job_type: Full-Time
+  location: Austin, TX
+  posted: 2025-05-22
+  remote: Hybrid
+  title: Senior HPC Storage Architect
+  url: https://www.hudsonrivertrading.com/hrt-job/senior-hpc-storage-architect-4/
