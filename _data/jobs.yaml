@@ -14,14 +14,6 @@
   remote: Remote friendly
   title: Senior Systems Engineer (HPC, Linux, Storage)
   url: https://www.kforce.com/find-work/search-jobs/#/detail/MTY5Nn5BUUd-MjEyNDUxN1Axfjk5/
-- employer: HPC2N, UmeÃ¥ University
-  expires: 2025-03-31
-  job_type: Full-Time
-  location: UmeÃ¥, Sweden
-  posted: 2024-12-21
-  remote: Remote friendly
-  title: System developer/devops for academic HPC
-  url: https://umu.varbi.com/en/what:job/jobID:782028/
 - employer: Rivos Inc.
   expires: 2025-05-07
   job_type: Full-Time
@@ -167,3 +159,11 @@
   remote: Hybrid
   title: Senior HPC Storage Architect
   url: https://www.hudsonrivertrading.com/hrt-job/senior-hpc-storage-architect-4/
+- employer: MIT Office of Research Computing and Data (ORCD)
+  expires: 2025-05-30
+  job_type: Full-Time
+  location: Cambridge, MA
+  posted: 2025-04-08
+  remote: Hybrid
+  title: Lead Storage Engineer
+  url: https://careers.peopleclick.com/careerscp/client_mit/external/jobDetails/jobDetail.html?jobPostId=32244&localeCode=en-us
