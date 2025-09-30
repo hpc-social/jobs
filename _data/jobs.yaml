@@ -30,30 +30,6 @@
   remote: Remote friendly
   title: HPC & AI Benchmarking Engineer
   url: https://jobs.careers.microsoft.com/global/en/job/1835249/Software-Engineer-II:-HPC-&-AI-Benchmarking
-- employer: Lemurian Labs
-  expires: 2025-07-31
-  job_type: Full-Time
-  location: SF Bay Area or Toronto, ON
-  posted: 2025-07-10
-  remote: Hybrid
-  title: Compiler Tech Lead
-  url: https://jobs.lever.co/lemurian-labs/5730fc5a-6e46-41d0-9d3f-3c8d396e3ce7
-- employer: Lemurian Labs
-  expires: 2025-07-31
-  job_type: Full-Time
-  location: SF Bay Area or Toronto, ON
-  posted: 2025-07-10
-  remote: Hybrid
-  title: Runtime Engineer
-  url: https://jobs.lever.co/lemurian-labs/645f571f-10a7-4336-be2d-bfd32abf9b7c
-- employer: Lemurian Labs
-  expires: 2025-07-31
-  job_type: Full-Time
-  location: SF Bay Area or toronto, ON
-  posted: 2025-07-10
-  remote: Hybrid
-  title: Compiler Optimization Engineer
-  url: https://jobs.lever.co/lemurian-labs/52d5b99c-ab0a-4a0e-8d94-3005289d2af2
 - employer: KTH Royal Institute of Technology in Stockholm
   expires: 2025-08-10
   job_type: Full-Time
@@ -190,3 +166,11 @@
   remote: Fully onsite
   title: Computational Science Intern
   url: https://jobs.eu.lever.co/quantinuum/85845a1c-7225-48e9-b352-f350c260c4b3
+- employer: Argonne Leadership Computing Facility
+  expires: 2025-11-01
+  job_type: Full-Time
+  location: Remote
+  posted: 2025-09-29
+  remote: Fully remote
+  title: Platform Administrator -- Kubernetes
+  url: https://argonne.wd1.myworkdayjobs.com/en-US/Argonne_Careers/job/Lemont-IL-USA/Platform-Administrator---Kubernetes--Remote-_421107
