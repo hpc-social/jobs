@@ -38,14 +38,6 @@
   remote: Fully remote
   title: Senior Software Engineer
   url: https://jobs.careers.microsoft.com/global/en/job/1872591/Senior-Software-Engineer
-- employer: Quantinuum
-  expires: 2025-11-16
-  job_type: Full-Time
-  location: Broomfield, CO
-  posted: 2025-09-26
-  remote: Fully onsite
-  title: HPC user support / HPC sysadmin
-  url: https://jobs.eu.lever.co/quantinuum/724ca1c6-3807-4b7f-a120-74559e0e17a8
 - employer: Earth Sciences New Zealand - NIWA
   expires: 2025-11-30
   job_type: Full-Time
@@ -134,14 +126,6 @@
   remote: Fully onsite
   title: HPC Storage Systems Team Lead
   url: https://argonne.wd1.myworkdayjobs.com/en-US/Argonne_Careers/job/Lemont-IL-USA/HPC-Storage-Systems-Team-Lead_421536
-- employer: Susquehanna International Group
-  expires: 2025-11-17
-  job_type: Full-Time
-  location: Philadelphia, PA
-  posted: 2025-09-17
-  remote: Remote friendly
-  title: HPC Developer
-  url: https://careers.sig.com/job/9563/HPC-Developer-Experienced-Hire
 - employer: Wichita State University
   expires: 2025-12-31
   job_type: Full-Time
@@ -150,3 +134,27 @@
   remote: Fully onsite
   title: Director of Research Technology
   url: https://jobs.wichita.edu/jobs/director-of-research-technology-wichita-kansas-united-states
+- employer: Federal Reserve Bank of Kansas City
+  expires: 2026-03-01
+  job_type: Full-Time
+  location: Kansas City, MO or Denver, CO or Omaha, NE or Oklahoma City, OK
+  posted: 2026-01-15
+  remote: Fully onsite
+  title: High Performance Computing (HPC) Engineer
+  url: https://rb.wd5.myworkdayjobs.com/FRS/job/Kansas-City-MO/High-Performance-Computing--HPC--Engineer_R-0000030821-2
+- employer: TechInsights
+  expires: 2026-03-14
+  job_type: Full-Time
+  location: Ottawa, ON, Canada
+  posted: 2026-01-15
+  remote: Fully onsite
+  title: Technical Product Manager, HPC
+  url: https://techinsights.applytojob.com/apply/1SCWtJxGLH/Technical-Product-Manager-High-Performance-Computing
+- employer: TechInsights
+  expires: 2026-03-14
+  job_type: Full-Time
+  location: Ottawa, ON, Canada
+  posted: 2026-01-15
+  remote: Fully onsite
+  title: Technical Fellow, Advanced Packaging & High Performance Computing
+  url: https://techinsights.applytojob.com/apply/dN88BL9xfX/Technical-Fellow-Advanced-Packaging-High-Performance-Computing
