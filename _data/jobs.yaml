@@ -1,27 +1,3 @@
-- employer: Microsoft
-  expires: 2025-12-31
-  job_type: Full-Time
-  location: Ireland
-  posted: 2025-09-12
-  remote: Fully remote
-  title: Software Engineer II
-  url: https://jobs.careers.microsoft.com/global/en/job/1871616/Software-Engineer-II
-- employer: Microsoft
-  expires: 2025-12-31
-  job_type: Full-Time
-  location: Ireland
-  posted: 2025-09-12
-  remote: Fully remote
-  title: Senior Software Engineer
-  url: https://jobs.careers.microsoft.com/global/en/job/1872591/Senior-Software-Engineer
-- employer: Cornell Center for Advanced Computing
-  expires: 2025-12-31
-  job_type: Full-Time
-  location: Ithaca, NY, USA
-  posted: 2025-11-11
-  remote: Hybrid
-  title: Senior Systems Administrator, High Performance Computing
-  url: https://jobs.hr.cornell.edu/us/en/job/WDR-00055802
 - employer: Aeolus Labs
   expires: 2026-01-31
   job_type: Full-Time
@@ -190,3 +166,11 @@
   remote: Hybrid
   title: Head of Operations HPC
   url: https://geosphere.at/Plone/en/documents/job-openings/645_25-head-of-operations-high-performance-computing.pdf
+- employer: Northwestern University
+  expires: 2026-02-16
+  job_type: Full-Time
+  location: Evanston, IL
+  posted: 2025-12-22
+  remote: Hybrid
+  title: Computational Specialist
+  url: https://careers.northwestern.edu/psp/hrnu_er/EMPLOYEE/HRMS/c/HRS_HRAM_FL.HRS_CG_SEARCH_FL.GBL?Page=HRS_APP_JBPST_FL&Action=U&FOCUS=Applicant&SiteId=1&JobOpeningId=52977&PostingSeq=1
