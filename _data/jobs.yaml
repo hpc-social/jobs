@@ -182,15 +182,6 @@
   remote: Fully onsite
   title: Director of Emerging Technologies
   url: https://tamus.wd1.myworkdayjobs.com/en-US/TAMU_External/job/College-Station-TX/Director-for-Emerging-Technologies-and-Research_R-091459
-- employer: University of Basel | Department of Mathematics and Computer Science |
-    HPC research group
-  expires: 2026-04-24
-  job_type: Full-Time
-  location: Basel, Switzerland
-  posted: 2026-03-26
-  remote: Fully onsite
-  title: Postdoc in Confidential HPC for AI in Cancer Care (100%, 3 years)
-  url: https://jobs.unibas.ch/offene-stellen/postdoctoral-researcher-in-confidential-high-performance-computing-for-ai-in-cancer-care/3fc7dd78-c1b0-4cfe-8dfe-79f53243d423
 - employer: Scripps Research Institute
   expires: 2026-04-01
   job_type: Full-Time
@@ -247,3 +238,45 @@
   remote: Fully onsite
   title: Linux Systems Administrator
   url: https://www.ugajobsearch.com/postings/473605
+- employer: Center for Advanced Systems Understanding (CASUS) / Helmholtz-Zentrum
+    Dresden-Rossendorf (HZDR)
+  expires: 2026-06-30
+  job_type: Full-Time
+  location: GÃ¶rlitz, Saxony, Germany
+  posted: 2026-04-24
+  remote: Hybrid
+  title: Postdoc (f/m/d) for HPC/GPU Computing
+  url: https://www.hzdr.de/db/Cms?pNid=490&pLang=en&pOid=77514
+- employer: Center for Advanced Systems Understanding (CASUS) / Helmholtz-Zentrum
+    Dresden-Rossendorf (HZDR)
+  expires: 2026-06-30
+  job_type: Full-Time
+  location: GÃ¶rlitz, Saxony, Germany
+  posted: 2026-04-24
+  remote: Hybrid
+  title: PhD Student (f/m/d) for HPC/GPU Computing
+  url: https://www.hzdr.de/db/Cms?pNid=490&pLang=en&pOid=77515
+- employer: Stanford University
+  expires: 2026-05-01
+  job_type: Full-Time
+  location: Stanford, California
+  posted: 2026-04-24
+  remote: Hybrid
+  title: Principal Storage Architect & Team Lead
+  url: https://careersearch.stanford.edu/jobs/principal-storage-architect-team-lead-research-hpc-data-platforms-30461
+- employer: Stanford University
+  expires: 2026-05-01
+  job_type: Full-Time
+  location: Stanford, California
+  posted: 2026-04-24
+  remote: Hybrid
+  title: Storage Architect/Sr. Storage Administrator
+  url: https://careersearch.stanford.edu/jobs/storage-architect-senior-storage-systems-administrator-research-hpc-data-platforms-30476
+- employer: Stanford University
+  expires: 2026-05-01
+  job_type: Full-Time
+  location: Stanford, California
+  posted: 2026-04-24
+  remote: Fully onsite
+  title: HPC Systems Administrator (Hardware & Infrastructure Operations)
+  url: https://careersearch.stanford.edu/jobs/hpc-systems-administrator-hardware-infrastructure-operations-30458
