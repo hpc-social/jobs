@@ -22,14 +22,6 @@
   remote: Hybrid
   title: Systems Engineer - HPC
   url: https://jobs.ashbyhq.com/sfcompute/d6aae02a-062c-48de-9a52-513245195801
-- employer: Federal Reserve Bank of Kansas City
-  expires: 2026-03-01
-  job_type: Full-Time
-  location: Kansas City, MO or Denver, CO or Omaha, NE or Oklahoma City, OK
-  posted: 2026-01-15
-  remote: Fully onsite
-  title: High Performance Computing (HPC) Engineer
-  url: https://rb.wd5.myworkdayjobs.com/FRS/job/Kansas-City-MO/High-Performance-Computing--HPC--Engineer_R-0000030821-2
 - employer: TechInsights
   expires: 2026-03-14
   job_type: Full-Time
@@ -240,27 +232,3 @@
   remote: Hybrid
   title: PhD Student (f/m/d) for HPC/GPU Computing
   url: https://www.hzdr.de/db/Cms?pNid=490&pLang=en&pOid=77515
-- employer: Stanford University
-  expires: 2026-05-01
-  job_type: Full-Time
-  location: Stanford, California
-  posted: 2026-04-24
-  remote: Hybrid
-  title: Principal Storage Architect & Team Lead
-  url: https://careersearch.stanford.edu/jobs/principal-storage-architect-team-lead-research-hpc-data-platforms-30461
-- employer: Stanford University
-  expires: 2026-05-01
-  job_type: Full-Time
-  location: Stanford, California
-  posted: 2026-04-24
-  remote: Hybrid
-  title: Storage Architect/Sr. Storage Administrator
-  url: https://careersearch.stanford.edu/jobs/storage-architect-senior-storage-systems-administrator-research-hpc-data-platforms-30476
-- employer: Stanford University
-  expires: 2026-05-01
-  job_type: Full-Time
-  location: Stanford, California
-  posted: 2026-04-24
-  remote: Fully onsite
-  title: HPC Systems Administrator (Hardware & Infrastructure Operations)
-  url: https://careersearch.stanford.edu/jobs/hpc-systems-administrator-hardware-infrastructure-operations-30458
