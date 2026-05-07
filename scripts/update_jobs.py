@@ -198,8 +198,11 @@ def update_jobs(file):
 
     # Add jobs we haven't seen (based on url and title for now)
     for job in new_jobs:
-        if f"{job['url']}-{job['title']}" in seen:
+        job_uid = f"{job['url']}-{job['title']}"
+        if job_uid in seen:
             continue
+        # Handle repeated postings of the same job
+        seen.add(job_uid)
         jobs.append(job)
 
     # Keep a list to re-write to file
