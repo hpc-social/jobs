@@ -22,22 +22,6 @@
   remote: Hybrid
   title: Systems Engineer - HPC
   url: https://jobs.ashbyhq.com/sfcompute/d6aae02a-062c-48de-9a52-513245195801
-- employer: TechInsights
-  expires: 2026-03-14
-  job_type: Full-Time
-  location: Ottawa, ON, Canada
-  posted: 2026-01-15
-  remote: Fully onsite
-  title: Technical Product Manager, HPC
-  url: https://techinsights.applytojob.com/apply/1SCWtJxGLH/Technical-Product-Manager-High-Performance-Computing
-- employer: TechInsights
-  expires: 2026-03-14
-  job_type: Full-Time
-  location: Ottawa, ON, Canada
-  posted: 2026-01-15
-  remote: Fully onsite
-  title: Technical Fellow, Advanced Packaging & High Performance Computing
-  url: https://techinsights.applytojob.com/apply/dN88BL9xfX/Technical-Fellow-Advanced-Packaging-High-Performance-Computing
 - employer: Rice University
   expires: 2026-07-31
   job_type: Full-Time
@@ -274,3 +258,12 @@
   remote: Fully remote
   title: Lead GPU Infrastructure Engineer (HPC Fleet)
   url: https://www.linkedin.com/jobs/view/4410948568/
+- employer: HMx Labs
+  expires: 2026-07-31
+  job_type: Full-Time
+  location: London, UK
+  posted: 2026-05-13
+  remote: Hybrid
+  title: Marketing & Business Development Lead for Supercomputing, AI and Enterprise
+    Data at HMx Labs
+  url: https://www.linkedin.com/jobs/view/4413498596/
