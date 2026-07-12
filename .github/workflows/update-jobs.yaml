@@ -42,7 +42,8 @@ jobs:
         slack_deploy: true
         slack_webhook: ${{ secrets.SLACK_WEBHOOK }}
 
-        bluesky_deploy: true
+        # Disabled July 2026, credentials issue
+        bluesky_deploy: false
         bluesky_email: ${{ secrets.BLUESKY_EMAIL }}
         bluesky_password: ${{ secrets.BLUESKY_PASSWORD }}
 
