@@ -1,11 +1,3 @@
-- employer: University of Luxembourg
-  expires: 2026-08-01
-  job_type: Full-Time
-  location: Esch-Belval, Luxembourg
-  posted: 2026-03-30
-  remote: Remote friendly
-  title: Postdoctoral researcher
-  url: https://www.uni.lu/en/jobs/postdoctoral-researcher-in-high-performance-computing-eurocc3-project/
 - employer: Alpha Compute Corp.
   expires: 2026-11-08
   job_type: Full-Time
@@ -112,14 +104,6 @@
   remote: Hybrid
   title: Program Director, Regulated Research
   url: https://illinois.csod.com/ux/ats/careersite/1/home/requisition/17618?c=illinois
-- employer: NetApp
-  expires: 2026-08-01
-  job_type: Full-Time
-  location: Remote
-  posted: 2026-07-17
-  remote: Remote friendly
-  title: Senior Solutions Architect - AI, HPC, & Lustre
-  url: https://careers.netapp.com/job/united-states/senior-solutions-architect-ai-hpc-and-lustre/27600/96197921600
 - employer: University of North Carolina at Charlotte - OneIT HPC Group
   expires: 2026-10-02
   job_type: Full-Time
