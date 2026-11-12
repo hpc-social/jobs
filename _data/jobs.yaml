@@ -167,22 +167,6 @@
   remote: Fully onsite
   title: Computer Scientist II
   url: https://axiomconsultants.applicantpro.com/jobs/4229512
-- employer: Spanish National Cancer Research Centre (CNIO)
-  expires: 2026-11-11
-  job_type: Full-Time
-  location: Madrid
-  posted: 2026-10-13
-  remote: Remote friendly
-  title: Senior Scientific Computing Engineer
-  url: https://www.cnio.es/empleo/senior-scientific-computing-engineer-for-the-it-scientific-computing-and-ai-area-ssce26/
-- employer: Spanish National Cancer Research Centre (CNIO)
-  expires: 2026-11-11
-  job_type: Full-Time
-  location: Madrid
-  posted: 2026-10-13
-  remote: Remote friendly
-  title: Systems Administrator (Infrastructure, Storage and Backup)
-  url: https://www.cnio.es/empleo/systems-administrator-infrastructure-storage-and-backup-for-the-it-scientific-computing-and-ai-area-sa26/
 - employer: Lynker
   expires: 2026-11-30
   job_type: Full-Time
@@ -264,3 +248,27 @@
   remote: Hybrid
   title: HPC Research Scientist I and HPC Research Scientist II
   url: https://jobs.utdallas.edu/postings/33216
+- employer: Cambridge Computer Services
+  expires: 2026-12-31
+  job_type: Full-Time
+  location: Remote
+  posted: 2026-11-11
+  remote: Fully remote
+  title: HPC / AI Network Technologist
+  url: https://cambridgecomputer.hire.trakstar.com/jobs/fk0vdwp?source=HPC.Social
+- employer: Cambridge Computer Services
+  expires: 2026-12-31
+  job_type: Full-Time
+  location: Waltham, MA
+  posted: 2026-11-11
+  remote: Hybrid
+  title: Technical Specialist for Storage, Infrastructure and HPC
+  url: https://cambridgecomputer.hire.trakstar.com/jobs/fk0qt8a?source=HPC.Social
+- employer: Argonne National Laboratory
+  expires: 2026-12-31
+  job_type: Full-Time
+  location: Lemont, IL
+  posted: 2026-11-11
+  remote: Remote friendly
+  title: Information Technology Group Leader
+  url: https://argonne.wd1.myworkdayjobs.com/en-US/Argonne_Careers/job/Lemont-IL-USA/Information-Technology-Group-Leader_423675?shared_id=c2309194-1642-4299-830d-53731fc2729b
